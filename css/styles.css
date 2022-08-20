@@ -1,2 +1,22 @@
+/* колір основний #F5F5F5 */
+/* другорядний колір #2F303A */
+/* основний колір тексту #757575 */
+/* другорядний колір тексту #212121 */
 
-
+body {
+	background-color: #f5f5f5;
+	color: #757575;
+}
+.list {
+	list-style: none;
+}
+.logo {
+	color: #2196F3;
+}
+.logo-head{
+	color: #000000;
+}
+/* Site nav */
+.site-nav .link {
+	color: #212121;
+}
