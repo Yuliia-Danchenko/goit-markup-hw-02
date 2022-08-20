@@ -20,20 +20,78 @@ body {
 .logo-head{
 	color: #000000;
 }
-/* Site nav */
-.site-nav .link {
-	color: #212121;
-}
-
+/* Header */
 .header{
 	background-color: #FFFFFF;
 }
+.site-nav .link {
+	color: #212121;
+}
+.contacts .mail,
+.contacts .tel{
+	color: #757575;
+}
+.site-nav .links:hover,
+.site-nav .links:focus,
+.contacts .links:hover,
+.contacts .links:focus{
+	color: #2196F3;
+}
+
+/* Hero */
 .hero{
+	color: #FFFFFF;
 	background-color: #2F303A;
 }
-.team{
+.bt{
+	background-color: #2196F3;
+	color: #FFFFFF;
+}
+
+/* Особливості */
+.list-feature-title{
+	color: #212121;
+}
+/* Діяльність */
+
+.activity-title{
+	color: #212121;
+}
+
+/* Наша команда */
+
+.team-title{
+	color: #212121
+}
+.team {
 	background-color: #F5F4FA;
 }
-.footer{
+.team-list h3{
+	color: #212121;
+}
+
+/* Footer */
+.footer {
 	background-color: #2F303A;
+}
+.footer-logo{
+	color: #2196F3;
+}
+.footer-logo-head{
+	color: #FFFFFF;
+}
+.footer-address{
+	color: #FFFFFF;
+}
+.footer-address-mail,
+.footer-address-tel{
+	color: rgba(255, 255, 255, 0.6);;
+}
+.footer-address:hover,
+.footer-address:focus,
+.footer-address-mail:focus,
+.footer-address-mail:hover,
+.footer-address-tel:hover,
+.footer-address-tel:focus{
+	color: #2196F3;
 }
