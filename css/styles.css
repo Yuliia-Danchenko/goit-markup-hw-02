@@ -1,8 +1,7 @@
-/* колір основний #F5F5F5 */
-/* другорядний колір #2F303A */
-/* основний колір тексту #757575 */
-/* другорядний колір тексту #212121 */
+:root{
+	--main-txt-font-family: Roboto, sans-sefir;
 
+}
 .links{
 	text-decoration: none;
 }
@@ -12,10 +11,16 @@
 body {
 	background-color: #f5f5f5;
 	color: #757575;
+	font-family: var(--main-txt-font-family);
 }
 
 .logo {
 	color: #2196F3;
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
 }
 .logo-head{
 	color: #000000;
@@ -43,10 +48,14 @@ body {
 	color: #FFFFFF;
 	background-color: #2F303A;
 }
-.bt{
+.hero-bt{
 	background-color: #2196F3;
 	color: #FFFFFF;
+	cursor: pointer;
+	font-family: inherit;
 }
+
+
 
 /* Особливості */
 .list-feature-title{
@@ -76,6 +85,11 @@ body {
 }
 .footer-logo{
 	color: #2196F3;
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
 }
 .footer-logo-head{
 	color: #FFFFFF;
@@ -94,4 +108,26 @@ body {
 .footer-address-tel:hover,
 .footer-address-tel:focus{
 	color: #2196F3;
+}
+
+/* ПОРТФОЛІО */
+.main{
+	background-color: #FFFFFF;
+	color: #757575;
+}
+/* Main */
+
+.main-list-item{
+	background-color: #F5F4FA;
+	color: #212121;
+	cursor: pointer;
+	font-family: inherit;
+}
+.main-list-item:hover,
+.main-list-item:focus{
+	background-color: #2196F3;
+	color: #FFFFFF;
+}
+.list-works-item h3{
+color: #212121;
 }
