@@ -1,4 +1,4 @@
-:root{
+root{
 	--main-bgc: #2F303A;
 	--main-color: #757575; 
 	--main-color-accent: #212121;
@@ -175,7 +175,7 @@ body {
 .footer-address:hover,
 .footer-address:focus,
 .footer-contacts:focus,
-.footer-contacts:hover,{
+.footer-contacts:hover{
 	color: var(--main-color-blue);
 }
 
